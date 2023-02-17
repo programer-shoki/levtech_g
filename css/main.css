@@ -1,0 +1,150 @@
+:root{
+    --color: deepskyblue;
+    --bg: #2e333b;
+}
+.explain{
+    text-align: center;
+    margin-top: 50px;
+}
+/*
+    ログインボタン
+                    */
+.login_account{
+    position : relative ;
+    width : 80px ;
+    height : 50px ;
+    margin-top : 40px ;
+    box-sizing : border-box ;
+    border-top : solid 20px var(--color) ;
+    border-left : solid 30px var(--color) ;
+    border-right : solid 30px var(--color) ;
+}
+.login_account::before{
+    content : '' ;
+    position : absolute ;
+    top : -60px ;
+    left : -40px ;
+    width : 0 ;
+    height : 0 ;
+    border-top : solid 0 transparent ;
+    border-left : solid 50px transparent ;
+    border-right : solid 50px transparent ;
+    border-bottom : solid 40px var(--color) ;
+}
+.login_account::after{
+    content : '' ;
+    position : absolute ;
+    top : -55px ;
+    left : -30px ;
+    width : 20px ;
+    height : 30px ;
+    background : var(--color) ;
+}
+/*
+    新規登録ボタン
+                    */
+.create_account{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: solid 10px #FFF;
+}
+.create_account::before,
+.create_account::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 10px;
+    height: 50px;
+    border-radius: 5px;
+    background: var(--color);
+}
+.create_account::after{
+    transform : rotate(90deg) ;
+}
+/*
+    リスト選択ボタン
+                    */
+.fourSquare{
+    position : relative ;
+    width : 100px ;
+    height : 100px ;
+    box-sizing : border-box ;
+    border-left : solid 45px #34ff6e;
+    border-right : solid 45px #37b3ff;
+}
+.fourSquare::before{
+    content : '' ;
+    position : absolute ;
+    bottom : 0 ;
+    box-sizing : border-box ;
+    border-top : solid 10px var(--bg);
+    left : -45px ;
+    width : 45px ;
+    height : 55px ;
+    background : #FFF ;
+}
+.fourSquare::after{
+    content : '' ;
+    position : absolute ;
+    bottom : 0 ;
+    box-sizing : border-box ;
+    border-top : solid 10px var(--bg);
+    right : -45px ;
+    width : 45px ;
+    height : 55px ;
+    background : #0068e1 ;
+}
+/*
+    配置のスタイル
+                    */
+.container{
+    display: flex;
+    gap: 128px; /*アイコンの間隔*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 320px;
+    background: var(--bg);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 170px;
+    height: 170px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding-bottom: 36px;
+    background: var(--bg);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+.icons::before{
+    content : 'Name' ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    position : absolute ;
+    left : 0 ;
+    right : 0 ;
+    bottom : 0 ;
+    margin : 0 auto ;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size : 14px ;
+    letter-spacing : 3px ;
+    width : 100% ;
+    height : 32px ;
+    color : #FFF ;
+}
+.icons:nth-child(1)::before{content : 'ユーザー新規登録' ;}
+.icons:nth-child(2)::before{content : 'ログイン' ;}
+.icons:nth-child(3)::before{content : 'クイズリスト選択' ;}

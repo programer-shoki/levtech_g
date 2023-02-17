@@ -1,0 +1,31 @@
+/* 変更 index html内
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" media="screen and (max-width: 800px)" type="text/css" href="css/mainmini.css"><!-- 800px以下 -->
+
+<h1 class="explain">FE-WORDSへ<span class="for-361"></span>ようこそ</h1>
+<h2 class="explain">アイコンを押すと各ページへ<span class="for-624"></span>移動します</h2>
+
+*/
+
+
+@media only screen and (max-width : 624px){
+  .for-624 { display:block;
+ }
+}
+@media only screen and (max-width : 361px){
+    .for-361 { display:block;
+   }
+  }
+.explain{
+    margin-top: 10px;
+}
+/*
+    配置のスタイル
+                    */
+.container{
+    width: 100%;
+    height: 60%;
+    padding: 20px 0;
+    gap: 20px ;/*アイコンの間隔*/
+}

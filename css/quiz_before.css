@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+.top_btn {
+    font-size: 24px;
+    margin-left: 40px;
+    width: 120px;
+    height: 40px;
+}
+
+.question_number {
+    font-size: 40px;
+}
+
+#countTimer {
+    font-size: 24px;
+}
+
+.question_text {
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+
+.radio_button {
+    font-size: 20px;
+}
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
+
+
+.kaito_button {
+    margin-top: 32px;
+    width:180px;
+    height: 48px;
+    font-size: 32px;
+}
+
+
+
+
+@media only screen and (max-width : 640px){
+    .for-750 { display:block;
+   }
+  }
+
+.result_text{
+    margin-top: 48px;
+    font-size: 32px;
+    animation: anime1 1s ease;      /* アニメーション指定 */
+}
+ 
+@keyframes anime1 {
+    0% {
+        opacity:  0;                /* 透明度指定 */
+        top: 50px;                  /* 位置指定 */
+    }
+    100% {
+        opacity:  1;                /* 透明度指定 */
+        top: 0;                     /* 位置指定 */
+    }
+}
+
+
+.next_button {
+    margin-top: 264px;
+    width:200px;
+    height: 48px;
+    font-size: 32px;
+}
+
+.result_button {
+    margin-top: 264px;
+    width:200px;
+    height: 48px;
+    font-size: 32px;
+}

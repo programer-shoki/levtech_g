@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+  /*テーブル*/
+table{ 
+    border: double 5px #668ad8;
+    /* padding: 0.5em 0.5em 0.5em 2em; */
+    border-collapse: collapse;
+		margin-bottom: 20px;
+    margin-top: 64px;
+}
+
+td{
+    color: #031729; 
+    border: double 5px #668ad8;
+    height: 64px;
+    background: #f1f8ff; 
+    /* padding: 0.5em 0.5em 0.5em 2em; */
+    border: solid 1px #ccc;
+}
+
+.form_right {
+  width: 200px;
+}
+
+.form_left {
+  width: 160px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.input_space {
+  width: 180px;
+  height: 32px;
+  font-size: 24px;
+}
+
+
+
+/*登録ボタン*/
+.btn-flat-double-border {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 160px;
+    height: 64px;
+    font-size: 24px;
+    color: green;
+    
+    border: double 4px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+    
+}
+
+
+.btn-flat-double-border:hover {  /* カーソルがボタンの上にあるときに色を変更 */
+    background: yellow;
+}
+
+
+.top_replace {
+  font-size: 24px;
+}
+
+
+
+
+
+.replace_home {
+    margin-top: 104px;
+}
+
+.login_NG {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.replace_login {
+  font-size: 24px;
+}
+
+
+
+.home {
+	width: 200px;
+	height: 64px;
+ 	font-size: 32px;
+}
+
+.replace_logout {
+    margin-top: 120px;
+}
+
+.logout {
+	width:128px;
+	height: 40px;
+	font-size: 20px;
+}
+  

@@ -1,0 +1,33 @@
+
+.main{
+    text-align: center;
+    position:relative;
+}
+
+.title {
+    font-size: 48px
+}
+
+
+.reg_count_button {
+    margin-top: 40px;
+    width:480px;
+    height: 64px;
+    font-size: 32px;
+}
+
+
+.reg_q_button {
+    margin-top: 40px;
+    width:480px;
+    height: 64px;
+    font-size: 32px;
+}
+
+
+.home_button {
+    margin-top: 64px;
+    width: 152px;
+    height: 48px;
+    font-size: 24px;
+}

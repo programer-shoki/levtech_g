@@ -1,0 +1,23 @@
+/* result_before.php用 */
+.replace_list {
+    margin-top: 64px;
+}
+
+.list {
+    width: 232px;
+    height: 44px;
+    font-size: 28px;
+}
+
+
+
+/* result_after.php, result_reg.php用 */
+.replace_home {
+    margin-top: 64px;
+}
+
+.home {
+    width: 192px;
+    height: 44px;
+    font-size: 28px;
+}
